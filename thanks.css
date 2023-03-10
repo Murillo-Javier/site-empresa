@@ -1,0 +1,30 @@
+* {
+    color: #fff;
+}
+body {
+    background-color: #1d1d1d !important;
+}
+
+.navbar-brand img {
+    width: 10vw;
+}
+
+@media only screen and (max-width: 739px) {
+    .navbar-brand img {
+        display: flex;
+        width: 30vw;
+    }
+}
+
+.btn-js {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #0047FF;
+    width: 540px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+info-intro {
+    display: flex;
+}
