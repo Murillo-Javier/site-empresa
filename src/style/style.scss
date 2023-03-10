@@ -44,17 +44,21 @@ canvas {
 }
 
 
-.img-logo {
-    img {
-        width: 10vw;
-    }
-}
 
+.img-logo {
+    width: 10vw;
+}
 
 @media only screen and (max-width: 739px) {
     .img-logo {
         display: flex;
         width: 25vw;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .img-logo {
+        width: 20vw;
     }
 }
 
@@ -210,7 +214,7 @@ main {
 
     .cards {
         background: #3D3D3D;
-        width: 200px;
+        width: 50vw;
     }
 
     .text-card {
@@ -276,24 +280,32 @@ main {
 .col-lg {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     background: #323232;
-    width: 840px;
+    width: 940px;
     height: auto;
     color: #fff;
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    gap: 90px;
     span {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    img {
+        width: 350px;
+        margin: 20px;
     }
 }
 
 @media only screen and (max-width: 980px) {
     .col-lg {
         width: 80vw;
+    }
+    .prazer {
+        display: none;
     }
 }
 
@@ -302,6 +314,7 @@ main {
         width: 290px;
     }
 }
+
 
 footer {
     p {
