@@ -37,7 +37,9 @@ canvas {
 }
 
 main {
+    height: 70vh;
     position: relative;
+    background: #1d1d1d5f;
     z-index: 999;
 
 }
