@@ -16,7 +16,7 @@
 
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="./style/thanks.css">
+    <link rel="stylesheet" href="./style/planos.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
@@ -24,55 +24,225 @@
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg p-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img class="img-logo" src="./img/ft-logo.png" alt="">
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-4">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-primary" href="planos.html">Planos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicos.html">Serviços</a>
-                    </li>
-                </ul>
-                <a href="./index.html">
-                    <button class="btn btn-outline-primary" type="submit">Retornar ao Início</button>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <canvas></canvas>
-    <main class="intro mt-5">
-    <div class="info-intro text-center mt-5">
-        <h1 class="mb-4">
-            Em breve!
-        </h1>
-        <span class="h6">
-            <p>
-            Clique no botão abaixo para voltar a paguina inicial.
-            </p>
-        </span>
-        <div class="mt-5">
-            <a class="btn-js" href="./index.html">
-            Retornar ao Início
-            </a>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img class="img-logo" src="./img/ft-logo.png" alt="">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-4">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active text-primary" href="planos.html">Planos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+        </ul>
+        <a href="#forms">
+            <button class="btn btn-outline-primary" type="submit">Entrar em Contato</button>
+        </a>
         </div>
     </div>
-    </main>
+    </nav>
+    <canvas></canvas>
+    <section class="section-1">
+        <article>
+            <h1>Conheça nossos planos.</h1>
+            <div class="flex-card">
+                <div class="plano-card">
+                    <div class="top-flex">
+                        <h2>Basic</h2>
+                        <span class="m-0 p-0"><sup>R$</sup>905,52</span>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li>Landing Page de até 1 Página</li>
+                        <li>E é isso que  você tera</li>
+                        <li>E é isso que  você tera no</li>
+                        <li>E é isso que  você tera no plano</li>
+                        <li>Hospedagem por 1 anos</li>
+                    </ul>
+                    <a href="#">Comprar</a>
+                </div>
+                <div class="plano-card-premium">
+                    <div class="top-flex">
+                        <h2>Premium</h2>
+                        <span class="m-0 p-0"><sup>R$</sup>1.063,92</span>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li>Landing Page de 1 a 2 Páginas</li>
+                        <li>E é isso que  você tera</li>
+                        <li>E é isso que  você tera no</li>
+                        <li>E é isso que  você tera no plano</li>
+                        <li>Hospedagem por 2 anos</li>
+                    </ul>
+                    <a href="#">Comprar</a>
+                </div>
+                <div class="plano-card">
+                    <div class="top-flex">
+                        <h2>Hard</h2>
+                        <span class="m-0 p-0"><sup>R$</sup>1.354,32</span>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li>Landing Page de 3 a mais Páginas</li>
+                        <li>E é isso que  você tera</li>
+                        <li>E é isso que  você tera no</li>
+                        <li>E é isso que  você tera no plano</li>
+                        <li>Hospedagem por 4 anos</li>
+                    </ul>
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <!-- <section class="preco" id="preco">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <span><sup>R$</sup>19</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Compra Exclusivaa</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Compra Exclusivaa</li>
+                <li>Download dos Itens</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+    </section> -->
+
+
+    <section class="row justify-content-center m-0">
+    <div class="my-5 text-center">
+        <span class="h2 d-block"><span class="text-primary">Dúvidas</span> frequentes</span>
+    </div>
+    <dl class="col-md-6" id="perguntasFrequentes">
+        <div class="pergunta py-2">
+            <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1">
+            <dt>→ O que é Hospedagem?</dt>
+            </a>
+            <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
+                <dd>
+                    A hospedagem de site nada mais é que um serviço de armazenamento online que viabiliza a publicação de um site e seus arquivos em um servidor, a fim de torná-lo disponível e acessível para toda a web.
+                </dd>
+            </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <div class="pergunta py-2">
+            <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta2">
+            <dt>→ Qual é a diferença entre site e landing page?</dt>
+            </a>
+            <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <dd>
+            Existem muitas razões que diferem entre os dois designs acima, mas a principal delas é o propósito. Uma landing page tem apenas UM objetivo: converter visitantes em leads. Esta página trata de apresentação, histórico empresarial, depoimentos, eventos importantes para a empresa, entre outros.
+            </dd>
+        </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <div class="pergunta py-2">
+            <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">
+            <dt>→ Aceita cartão de credito?</dt>
+            </a>
+            <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+                Sim. Você pode optar pelo parcelamento em até 3x sem juros.
+            </p>
+            </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <div class="pergunta py-2">
+            <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">
+            <dt>→ O que é uma landing page?</dt>
+            </a>
+            <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <dd>
+                Podemos chamá-lo de ‘’mini-site’’, um local onde estão localizadas as informações do seu negócio, seja um produto ou um serviço. É aqui que você mostra ao público como é bom o que sua empresa cria, fabrica ou revende.
+            </dd>
+            </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <div class="pergunta py-2">
+            <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">
+            <dt>→ Sou autônomo(a)... posso contratar mesmo assim?</dt>
+            </a>
+            <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <dd>
+                Com certeza. Não é obrigatório possuir um CNPJ para contratar os nossos serviços.
+            </dd>
+            </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <a class="btn-js" href="#forms">
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </a>
+    </dl>
+    </section>
+
+    <section class="section-3" id="forms">
+    <div class="col-lg rounded-4">
+        <div class="prazer">
+            <h1 class="h4 mt-4">Será um prazer fazer negócio com você.</h1>
+            <img class="col-lg-svg" src="./img/col-lg-img.svg" alt="">
+        </div>
+        <form class="rounded-4 p-4 box-shadow" action="https://formsubmit.co/a354db67d2b21f471aa2889e7a25b480" method="POST">
+        <span class="h6 m-0">
+            &nbsp Preencha o formulário <br> para fazer seu orçamento
+        </span>
+            <div class="form-group">
+            <label for="clienteNome"></label>
+            <input name="Nome" type="text" class="form-control" id="clienteNome" aria-describedby="emailHelp" placeholder="Nome:" required>
+            </div>
+            <div class="form-group">
+            <label for="clienteEmail"></label>
+            <input name="Email" type="email" class="form-control" id="clienteEmail" placeholder="Email:" required>
+            </div>
+            <div class="form-group">
+            <label for="clienteTelefone"></label>
+            <input name="Telefone" type="tel" class="form-control" id="clienteTelefone" placeholder="Telefone:" required>
+            </div>
+            <div class="form-group">
+            <label for="clienteMessage"></label>
+            <textarea name="Mensagem" class="form-control" id="clienteMessage" rows="3" placeholder="Mensagem:" required></textarea>
+            </div>
+            <input type="hidden" name="_next" value="https://virtualvale.com.br/thanks.html">
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+    </div> 
+    </section>
+
+    <footer>
+<p class="mb-0">© 2023 Virtual Vale - Todos os direitos reservados.</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="./js/jquery-3.2.1.slim.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.js"></script>
-    <script src="./js/script.js"></script>
-</body>
-</html>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

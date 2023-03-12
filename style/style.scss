@@ -40,7 +40,7 @@ canvas {
 
 .navbar {
     background: #1d1d1d;
-    border-bottom: 1px solid #8d8d8d;
+    border-bottom: 1px solid #7e7e7e60;
 }
 
 
@@ -54,11 +54,18 @@ canvas {
         display: flex;
         width: 25vw;
     }
+
+    .navbar {
+        border-bottom: none;
+    }
 }
 
 @media only screen and (max-width: 880px) {
     .img-logo {
         width: 20vw;
+    }
+    .navbar {
+        border-bottom: none;
     }
 }
 
@@ -250,7 +257,13 @@ main {
 }
 
 .pergunta {
-    border-bottom: 0.5px solid #fff;
+    border-bottom: 0.5px solid #3f3f3f;
+    dt {
+        color: #0047FF;
+    }
+    dd {
+        line-height: 1.4rem;
+    }
 }
 
 @media only screen and (max-width: 739px) {
