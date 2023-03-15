@@ -352,6 +352,13 @@ main {
     white-space: nowrap;
 }
 
+@media only screen and (max-width: 739px) {
+    .top {
+        width: 15vw;
+        height: 10vh;
+    }
+}
+
 footer {
     p {
         display: flex;
