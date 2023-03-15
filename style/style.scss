@@ -276,6 +276,7 @@ main {
     }
 }
 
+
 .section-3 {
     form {
         width: 290px;
@@ -328,6 +329,28 @@ main {
     }
 }
 
+.top {
+    --offset: 50px; 
+    
+    position: sticky;
+    left: 95%;
+    bottom: 20px;      
+    margin-right:10px; 
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 9vh;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #00000099;
+    border-radius: 20px;
+    white-space: nowrap;
+}
 
 footer {
     p {
