@@ -338,8 +338,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3vw;
-    height: 6vh;
+    width: 60px;
+    height: 60px;
     text-decoration: none;
     padding: 15px;
     color: #fff;
@@ -350,17 +350,13 @@ main {
 
 @media only screen and (max-width: 880px) {
     .return-top {
-        left: 80%;
-        width: 15vw;
-        height: 8vh;
+        left: 90%;
     }
 }
 
 @media only screen and (max-width: 739px) {
     .return-top {
         left: 80%;
-        width: 15vw;
-        height: 8vh;
     }
 }
 
