@@ -329,15 +329,11 @@ main {
     }
 }
 
-.top {
-    --offset: 50px; 
-    
+.return-top {
     position: sticky;
     left: 95%;
     bottom: 20px;      
-    margin-right:10px; 
-    margin-top: calc(100vh + var(--offset));
-    
+    margin-right:10px;     
     /* visual styling */
     display: flex;
     justify-content: center;
@@ -353,7 +349,7 @@ main {
 }
 
 @media only screen and (max-width: 739px) {
-    .top {
+    .return-top {
         width: 15vw;
         height: 8vh;
     }
