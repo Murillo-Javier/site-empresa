@@ -146,7 +146,7 @@ article {
             }
         }
     }
-    a {
+    .btn-comprar {
         width: 200px;
         height: 35px;
         display: flex;
@@ -165,11 +165,6 @@ article {
 		text-align: center;
 		padding: 10px 0 5px 0;
 	}
-    .hostinger {
-            text-decoration: underline;
-            font-size: 1rem;
-            margin: 0;padding: 0;
-    }
 }
 
 .plano-card-premium {
@@ -200,14 +195,14 @@ article {
                 content: '';
                 width: 10px;
                 height: 10px;
-                border-radius: 50%;
                 margin-right: 10px;
-                background: #0047FF;
+                border-radius: 50%;
                 display: inline-block;
+                background: #0047FF;
             }
         }
     }
-    a {
+    .btn-comprar {
         width: 200px;
         height: 35px;
         display: flex;
@@ -218,8 +213,8 @@ article {
         background-color: transparent;
     }
     span {
-        font-size: 3em;
-		display: block;
+		font-size: 3em;
+        display: block;
 		max-width: 300px;
 		margin: 20px auto;
 		font-weight: bold;
