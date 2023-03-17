@@ -223,6 +223,19 @@ article {
 	}
 }
 
+.top-flex {
+    h3 {
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 20px;
+    }
+    span {
+        text-decoration: line-through;
+        font-size: 1rem;
+        color: rgb(255, 60, 60);
+    }
+}
+
 .flex-card {
     display: flex;
     align-items: flex-end;
@@ -254,6 +267,7 @@ article {
         ul {
             li {
                 width: 200px;
+                
             }
         }
     }
@@ -349,7 +363,7 @@ article {
 .pergunta {
     border-bottom: 0.5px solid #3f3f3f;
     dt {
-        color: #0047FF;
+        color: #3068f6;
     }
     dd {
         line-height: 1.4rem;
