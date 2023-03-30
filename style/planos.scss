@@ -283,7 +283,7 @@ article {
     }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 900px) {
     .flex-card {
         flex-wrap: wrap;
         align-items: center;
@@ -323,7 +323,7 @@ article {
 
     .plano-card-premium {
         width: 80vw;
-        height: 75vh;
+        height: 600px;
         ul {
             li {
                 width: 200px;
@@ -333,7 +333,7 @@ article {
 
     .plano-card {
         width: 80vw;
-        height: 75vh;
+        height: 600px;
         ul {
             li {
                 width: 200px;
