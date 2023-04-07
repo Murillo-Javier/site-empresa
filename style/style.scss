@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-background: #595959
+background: #1d1d1d
 }
 
 body::-webkit-scrollbar-thumb {
@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 html, body {
-    background: #000;
+    background: #1d1d1d;
     margin: 0;
 }
 
@@ -40,7 +40,7 @@ canvas {
 
 .navbar {
     background: #1d1d1d;
-    border-bottom: 1px solid #7e7e7e60;
+    border-bottom: 1px solid #1d1d1d;
 }
 
 
@@ -357,12 +357,5 @@ main {
 @media only screen and (max-width: 739px) {
     .return-top {
         left: 80%;
-    }
-}
-
-footer {
-    p {
-        display: flex;
-        justify-content: center;
     }
 }
