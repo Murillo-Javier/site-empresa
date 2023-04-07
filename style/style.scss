@@ -194,18 +194,20 @@ main {
 
     .cards {
         width: 35vw;
+        height: 40vh;
     }
 
     .cards-detail {
         background: #545454;
         width: 35vw;
+        height: 40vh;
     }
 }
 
 @media only screen and (max-width: 739px){
     
     .card-container {
-        width: 60vw;
+        width: 80vw;
     }
 
     .flex-card {
@@ -216,12 +218,12 @@ main {
     }
 
     .cards-detail{
-        width: 54vw;
+        width: 65vw;
     }
 
     .cards {
         background: #3D3D3D;
-        width: 54vw;
+        width: 65vw;
     }
 
     .text-card {
