@@ -362,7 +362,7 @@ main {
     }
 }
 
-.a-uso {
+.pp {
     color: #0047FF;
 }
 
@@ -390,6 +390,13 @@ main {
     border-radius: 5px;
     padding: 0.8rem 1rem;
     font-size: 1rem;
+}
+
+@media only screen and (max-width: 739px) {
+    .cookies-content {
+        width: 90vw;
+        font-size: 1rem;
+    }
 }
 
 .return-top {
