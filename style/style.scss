@@ -87,9 +87,12 @@ main {
     a {
         text-decoration: none;
     }
+    h1 {
+        font-size: 1.4rem;
+    }
     h2 {
         color: #b0b0b0;
-        font-size: 1.6rem;
+        font-size: 1.07rem;
     }
 }
 
@@ -243,6 +246,19 @@ main {
     }
 }
 
+// @media only screen and (max-height: 750px) {
+//     .cards-detail{
+//         width: 35vw;
+//         height: 75vh;
+//     }
+
+//     .cards {
+//         background: #3D3D3D;
+//         width: 35vw;
+//         height: 75vh;
+//     }
+// }
+
 #perguntasFrequentes {
     width: 50vw;
     a {
@@ -250,14 +266,14 @@ main {
         text-decoration: none;
     }
     button {
-        display: flex;
-        justify-content: center;
-        background-color: transparent;
-        border: 1px solid #0047FF;
-        color: #0047FF;
         width: 290px;
         height: 35px;
+        display: flex;
+        color: #0047FF;
         margin: 20px auto;
+        justify-content: center;
+        border: 1px solid #0047FF;
+        background-color: transparent;
     }
 }
 
