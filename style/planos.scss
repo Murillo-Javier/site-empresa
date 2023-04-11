@@ -113,7 +113,7 @@ article {
 
 .plano-card {
     width: 20vw;
-    height: 75vh;
+    height: 65vh;
     padding: 20px;
     margin: 20px;
     display: flex;
@@ -169,7 +169,7 @@ article {
 
 .plano-card-premium {
     width: 20vw;
-    height: 80vh;
+    height: 70vh;
     padding: 20px;
     margin: 20px;
     display: flex;
@@ -341,24 +341,6 @@ article {
         }
     }
 }
-
-// @media only screen and (max-height: 750px) {
-    
-//     .flex-card {
-//         display: flex;
-//         flex-direction: row-reverse;
-//     }
-
-//     .plano-card {
-//         width: 80vw;
-//         height: 70vh;
-//     }
-
-//     .plano-card-premium {
-//         width: 80vw;
-//         height: 70vh;
-//     }
-// }
 
 
 #perguntasFrequentes {
