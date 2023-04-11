@@ -88,11 +88,11 @@ main {
         text-decoration: none;
     }
     h1 {
-        font-size: 1.4rem;
+        font-size: 2.5rem;
     }
     h2 {
         color: #b0b0b0;
-        font-size: 1.07rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -207,6 +207,17 @@ main {
 }
 
 @media only screen and (max-width: 739px){
+    .info-intro {
+
+        h1 {
+            font-size: 1.3rem;
+        }
+        h2 {
+            color: #b0b0b0;
+            font-size: 1.07rem;
+        }
+    }
+    
     .mb-4 {
         font-size: 1.3rem;
     }
@@ -443,8 +454,4 @@ main {
     .return-top {
         left: 80%;
     }
-}
-
-.col-md-3 {
-    background: #0047FF;
 }
